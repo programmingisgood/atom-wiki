@@ -1,0 +1,18 @@
+{
+  "name": "atom-wiki",
+  "main": "./lib/atom-wiki",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "atom-wiki:fetch"
+  },
+  "repository": "https://github.com/atom/atom-wiki",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "wikijs": "^4.8.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Fetch Wiki",
+        "command": "atom-wiki:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom Wiki",
+          "submenu": [
+            {
+              "label": "Fetch Wiki",
+              "command": "atom-wiki:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
